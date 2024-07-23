@@ -2,7 +2,7 @@ package Mohanaeswar;
 
 import java.io.*;
 
-public class strman {
+public class Strman {
 	  public static void main(String args[])throws IOException
 	  {
 	    InputStreamReader ir=new InputStreamReader(System.in);

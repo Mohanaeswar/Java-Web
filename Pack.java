@@ -1,6 +1,6 @@
 package Lib;
 import java.io.*;
-public class emp
+public class Pack
 {
    BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
    String empname;

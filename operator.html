@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators and Expressions Example</title>
+</head>
+<body>
+    <h1>JavaScript Operators and Expressions Example</h1>
+    <p id="arithmetic"></p>
+    <p id="comparison"></p>
+    <p id="logical"></p>
+
+    <script>
+        // Arithmetic operators
+        let a = 10;
+        let b = 5;
+        let sum = a + b;
+        let difference = a - b;
+        let product = a * b;
+        let quotient = a / b;
+        
+        // Displaying arithmetic results
+        document.getElementById("arithmetic").innerHTML = `
+            Arithmetic Operations:<br>
+            Sum (a + b): ${sum}<br>
+            Difference (a - b): ${difference}<br>
+            Product (a * b): ${product}<br>
+            Quotient (a / b): ${quotient}
+        `;
+
+        // Comparison operators
+        let isEqual = (a == b);
+        let isNotEqual = (a != b);
+        let isGreater = (a > b);
+        let isLessOrEqual = (a <= b);
+        
+        // Displaying comparison results
+        document.getElementById("comparison").innerHTML = `
+            Comparison Operations:<br>
+            a == b: ${isEqual}<br>
+            a != b: ${isNotEqual}<br>
+            a > b: ${isGreater}<br>
+            a <= b: ${isLessOrEqual}
+        `;
+
+        // Logical operators
+        let logicalAnd = (a > 0 && b > 0);
+        let logicalOr = (a < 0 || b > 0);
+        let logicalNot = !(a == b);
+        
+        // Displaying logical results
+        document.getElementById("logical").innerHTML = `
+            Logical Operations:<br>
+            a > 0 && b > 0: ${logicalAnd}<br>
+            a < 0 || b > 0: ${logicalOr}<br>
+            !(a == b): ${logicalNot}
+        `;
+    </script>
+</body>
+</html>

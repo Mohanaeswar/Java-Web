@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays Example</title>
+</head>
+<body>
+
+<h1>Arrays</h1>
+<input type="text" id="a1">
+<button onclick="array()">Add</button>
+<p id="ArrDis"></p>
+
+<script type="text/javascript">
+    let arr = [];
+    function array() {
+        let Val = document.getElementById("a1").value;
+        arr.push(Val);
+        document.getElementById("ArrDis").innerHTML = arr.join(", ");
+    }
+</script>
+
+</body>
+</html>
